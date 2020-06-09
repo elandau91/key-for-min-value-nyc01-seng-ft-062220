@@ -6,8 +6,8 @@ def key_for_min_value(name_hash)
   low = 50000
   low_man = ""
   name_hash.each do |key, value|
-    if {} == nil
-      low_man = key
+    if name_hash == {}
+      low_man = nil
     end  
     if value < low
       low = value
