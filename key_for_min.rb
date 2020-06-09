@@ -12,9 +12,9 @@ def key_for_min_value(name_hash)
     if value == low
       low_man = key
     end
-    if name_hash == {}
-      low_man = "nil"
-    end  
+    if hash_example.detect(ifnone = nil)
+      low_man = hash_example.detect(ifnone = nil)
+    end
   end
   low_man
 end
