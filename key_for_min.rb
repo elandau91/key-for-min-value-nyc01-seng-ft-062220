@@ -13,7 +13,7 @@ def key_for_min_value(name_hash)
     if value == low
       low_man = key
     end
-    if key == NIL
+    if key == nil
       low_man = key
     end  
   end
