@@ -12,11 +12,9 @@ def key_for_min_value(name_hash)
     
     if value == low
       low_man = key
+      puts low_man
     end
     
-    return low_man = nil if name_hash == {}
   end
-  
-  low_man
 end
 
